@@ -1,0 +1,158 @@
+*{
+    background-color:#589ee882;
+}
+
+.prueba{
+    color: rgba(64, 157, 157, 0.852);
+    box-sizing: border-box;
+
+}
+
+.prueba{
+    font-family:Courier, Courier;
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        background: var(--bg-color);
+        animation:fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+0% {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+100%{
+    opacity: 1;
+    transform: translateY(0);
+}    
+}
+
+.profileP{
+height:15%;
+width: 15%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: minmax(150px,auto);
+    gap: 5px;
+
+}
+
+.container{
+    margin-left: 5px;
+    padding: 11px;
+    text-align:left;
+    font-family: helvetica;
+    font-size: large;
+    font-style: italic;
+    border-color: aqua;
+}
+
+a{
+    text-decoration:none;
+    color: rgba(55, 147, 204, 0.838);
+    background-color: rgb(219, 214, 235);
+    margin: 1px;
+    padding: 10px;
+    border:20px;
+    text-align: center;
+    font-size:small;
+
+
+
+}
+
+section{
+    display: flex;
+    align-items: right;
+    justify-content:auto;
+}
+
+.profileP{
+    display: flex;
+    justify-content:center;    
+    align-items: center;
+}
+
+.profileP{
+        width: 20%;
+        min-height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        background: var(--bg-color);
+        animation:fadeIn 6s ease-in-out;
+}
+
+.grid1{
+    display: grid;
+    justify-content: flex-end;
+    
+
+
+}
+*{
+
+    background-image: url(./5652012.jpg);
+    background-size: cover;
+    background-position: center;
+}*/
+p{
+    color: aqua;
+}
+li{
+    color: rgb(144, 161, 92);
+}
+
+.expAbout{
+    color: coral;
+    text-align: center;
+    font-family:Courier, Courier;
+    text-decoration: none;
+    margin: 1px;
+    padding: 10px;
+    border:20px;
+    
+}
+
+.pcolor{
+    color: aqua;
+}
+
+
+.welcome
+{
+        text-transform: uppercase;
+        background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+    );
+        background-size: auto auto;
+        background-clip: border-box;
+        background-size: 200% auto;
+        color: #fff;
+        background-clip: text;
+        text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textclip 4s linear infinite;
+        display: inline-block;
+        font-size: 60px;
+}
+
+@keyframes textclip {
+    to {
+    background-position: 200% center;
+        }
+}
